@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
-
+import  Profilephoto from './component/folder/profilephoto';
+import  Fullname from './component/folder/fullname';
+import  Adresse from './component/folder/adresse';
+import  Introduction from './component/folder/introduction';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"> 
+         
+        <img className='forest' src='forest.png' alt='forest'/>
+
+         <div className="containers">
+          <Profilephoto/>
+          <Fullname/>
+          <Adresse/>
+          <Introduction/>
+          </div> 
+          
+        <div className="gitelegram">
+           <a href='https://telegram.org/'>  <img className='telegram' src='./telegram.png' alt='telegram'/></a>
+           <a href="https://github.com/nourhenechaos"> <img className='github'src='./Github.png' alt='github'/></a>
+        </div>
+
     </div>
   );
 }

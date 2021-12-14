@@ -1,0 +1,12 @@
+h1{
+    background:linear-gradient(90deg, #1915DD 0%, rgba(18, 188, 96, 0.851917) 27.84%, rgba(67, 186, 164, 0.678204) 57.37%, rgba(170, 17, 26, 0.550056) 70.52%, rgba(142, 37, 179, 0.51) 87.85%, rgba(11, 10, 100, 0.453342) 102.77%, rgba(8, 7, 71, 0.322917) 102.78%);
+    -webkit-text-fill-color:transparent; 
+    -webkit-background-clip: text;
+    width: 30rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-left:20rem;
+    letter-spacing: 0.5rem;
+    
+}
